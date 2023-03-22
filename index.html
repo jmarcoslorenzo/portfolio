@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Titulo-->
+    <title>Marcos Lorenzo | Front-end developer</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script></head>
+    <!--Iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto+Slab&display=swap" rel="stylesheet">
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md bg-navbar-light" style="position: sticky; top: 0;">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                    <a id="home" class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about-me">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiencia">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--Hero-->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img src="images/foto-prefil.jpg" alt="avatar" id="avatar">
+            <h1>Hola, soy Juan Marcos Lorenzo</h1>
+            <h2>Front-end developer</h2>
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="images/banner2.webp" alt="imagen de fondo">
+        </div>
+    </section>
+
+    <!--About me-->
+    <section id="about-me" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Conóceme</h2>
+            <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dolores delectus perferendis adipisci libero asperiores totam, ut, aut consectetur recusandae repellat. Quam ipsam molestiae eligendi asperiores necessitatibus voluptates autem reprehenderit!</p>
+        </div>
+    </section>
+
+    <!--Experiencia-->
+    <section id="experiencia" class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!--Desarrollo Web-->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Desarrollo Web</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, placeat rem illum maiores delectus saepe optio consequuntur magni natus possimus architecto!</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">HTML</span>
+                        <span class="badge text-bg-primary">CSS</span>
+                        <span class="badge text-bg-primary">JavaScript</span>
+                        <span class="badge text-bg-primary">Angular</span>
+                    </div>
+                </div>
+                <!--Articulos-->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Proyectos</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, placeat rem illum maiores delectus saepe optio consequuntur magni natus possimus architecto!</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">SPA</span>
+                        <span class="badge text-bg-primary">API REST</span>
+                    </div>
+                </div>
+                <!--Estudiante-->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Estudiante</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, placeat rem illum maiores delectus saepe optio consequuntur magni natus possimus architecto!</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">UNICEN-EXA</span>
+                        <span class="badge text-bg-primary">Java</span>
+                        <span class="badge text-bg-primary">Inglés</span>
+                        <span class="badge text-bg-primary">POO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Proyectos-->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+        <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente</h3>
+        <!-- Galeria de proyectos-->
+        <div class="container text-center proyectos-contenedor">
+            <div class="row">
+                <!-- Proyecto 1 SPA -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/proyecto1.png" alt="">
+                        <div class="overlay">
+                            <p>SPA</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jmarcoslorenzo" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 API REST-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/proyecto2.png" alt="">
+                        <div class="overlay">
+                            <p>API REST</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jmarcoslorenzo" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 PORTFOLIO-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/proyecto3.png" alt="">
+                        <div class="overlay">
+                            <p>Portfolio</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jmarcoslorenzo" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4 MENU RESPONSIVE-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/proyecto4.png" alt="">
+                        <div class="overlay">
+                            <p>Responsive</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jmarcoslorenzo" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 5 Web Leones-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/proyecto5.png" alt="">
+                        <div class="overlay">
+                            <p>Web Leones</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jmarcoslorenzo" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 6 La Casita de Mariel-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/proyecto6.png" alt="">
+                        <div class="overlay">
+                            <p>La Casita de Mariel</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/jmarcoslorenzo" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info -->
+    <section class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Titulo 2</h2>
+        <h3 class="seccion-descripcion">Titulo 3</h3>
+
+        <!-- Carrusel -->
+        <div id="info-carrusel" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/proyecto1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/proyecto2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/proyecto3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button id="prev" class="carousel-control-prev" type="button" data-bs-target="#info-carrusel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button id="next" class="carousel-control-next" type="button" data-bs-target="#info-carrusel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        ¡Hablemos!
+                    </div>
+                    <div class="col-12 col-md-4 descripcion"> 
+                        Contáctame para iniciar tu proyecto de desarrollo web y hagamoslo realidad.
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:jmlorenzo1993@gmail.com">
+                            <button type="button">
+                                Contacto
+                                <i class="bi bi-envelope-check-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <p class="footer-texto text-center">Estoy en constante aprendizaje.<br>Creemos un proyecto juntos.</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://www.instagram.com/marcos.lorenzo11" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://github.com/jmarcoslorenzo" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/juan-marcos-lorenzo-3260aa211/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:jmlorenzo1993@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
